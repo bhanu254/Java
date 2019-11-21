@@ -1,10 +1,11 @@
 import java.util.Scanner;
 import java.io.*;
 
-public class JavaProgram
+class JavaProgram
 {
     public static void main(String args[])
     {
+	    System.out.println("Hi");
         int a, b, big;
         a = 25;
         b = 30;
@@ -18,6 +19,6 @@ public class JavaProgram
             big = b;
         }
 		
-        System.out.print("Largest of Two Number is " +big);
+        System.out.println("Largest of Two Number is " +big);
     }
 }
